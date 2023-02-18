@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+
+:root {
+    --primaria: #000000;
+    --secundaria: #f6f6f6;
+    --terciaria: #22d4fd;
+    --cor-hover: #272727
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: var(--primaria);
+    color: var(--secundaria);
+    
+}
+.strong-frontend {
+    color:var(--terciaria);
+}
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+.cabecalho-menu {
+    display: flex;
+    gap: 80px;
+}
+.cabecalho-menu-link {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--terciaria);
+    text-decoration: none;
+}
+.apresentacao {
+    padding: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apresentacao-conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.apresentacao-conteudo-titulo {
+    font-size: 36px;
+    font-family: 'Krona One', sans-serif;
+}
+.apresentacao-conteudo-paragrafo {
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+}
+.apresentacao-botoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.apresentacao-links-subtitulo {
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.apresentacao-links {
+    border: 2px solid var(--terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 21.5px 0;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secundaria);
+    font-weight: 600;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.apresentacao-links:hover {
+    background-color: var(--cor-hover);
+}
+#img {
+    border-radius: 8%;
+}
+.rodape {
+    color: var(--primaria);
+    background-color: var(--terciaria);
+    padding: 24px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 400;
+}
